@@ -63,5 +63,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           subject: "Artefacto de dangondom1 publicado"
           body: "El artefacto generado por dangondom1 se ha publicado correctamente."
-          to: ${{ secrets.DESTINATARIO }}
+          to: "dangondom1@alum.us.es"
           from: dangondom1
