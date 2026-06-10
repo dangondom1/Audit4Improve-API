@@ -48,7 +48,7 @@ jobs:
           chmod +x gradlew
           ./gradlew publish
 
-      - run: echo "El desarrollador dangondom1 ha añadido una nueva versión"
+      - run: echo "El desarrollador dangondom1 ha añadido una nueva versión" | echo ${{ secrets.DESTINATARIO }}
 
   Mail:
     runs-on: ubuntu-latest
