@@ -1,1 +1,1 @@
-Esto es una prueba para probar las github actions.
+Esto es una segunda prueba para probar las github actions.
