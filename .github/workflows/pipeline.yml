@@ -55,6 +55,7 @@ jobs:
     run: echo "${{ secrets.DESTINATARIO }}"
 
   Mail:
+    name: Testeando destinatario
     runs-on: ubuntu-latest
 
     steps:
