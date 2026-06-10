@@ -58,10 +58,11 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
-          server_port: 587
+          server_port: 465
+          secure: true
           username: ${{ secrets.EMAIL }}
           password: ${{ secrets.PASSWORD }}
           subject: "Artefacto de dangondom1 publicado"
           body: "El artefacto generado por dangondom1 se ha publicado correctamente."
-          to: "dangondom1@alum.us.es"
+          to: ${{ secrets.DESTINATARIO }}
           from: dangondom1
