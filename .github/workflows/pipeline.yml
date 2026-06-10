@@ -50,10 +50,6 @@ jobs:
 
       - run: echo "El desarrollador dangondom1 ha añadido una nueva versión"
 
-  Debug:
-    runs-on: ubuntu-latest
-    run: echo "${{ secrets.DESTINATARIO }}"
-
   Mail:
     runs-on: ubuntu-latest
 
